@@ -1,0 +1,238 @@
+.nav-links {
+    float: right;
+    justify-content: end;
+    padding-right: 2%;
+}
+
+.nav-item {
+    padding-left: 2rem;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-family: 'Monoton', cursive;
+    font-size: xx-large;
+}
+
+.home {
+    background-image: url(static/home.jpg);
+    background-size: 100% 100%;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-bottom: 10%;
+}
+
+.home-heading {
+    color: #2b2d42;
+    font-size: 4rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    color: #ef233c;
+    font-weight: 900;
+}
+
+.about {
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    display: flex;
+    background-color: #8d99ae;
+}
+
+.myphoto {
+    width: 35%;
+    border-radius: 100%;
+}
+
+.about-data {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 20%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about-heading {
+    color: #ef233c;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+.about-desc {
+    color: #edf2f4;
+    font-size: larger;
+}
+
+.skills {
+    background-color: #edf2f4;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.skills-heading {
+    font-family: 'Source Code Pro', monospace;
+    color: #2b2d42;
+    font-size: 4rem;
+    padding-bottom: 2%;
+}
+
+.skill-cards {
+    display: inline-flex;
+}
+
+.skills-card-row {
+    padding-left: 20%;
+}
+
+.card {
+    min-height: 31.3rem;
+    min-width: max-content;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.card {
+    background: linear-gradient(#edf2f4, #edf2f4 50%, #ef233c 50%, #ef233c);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+.card:hover {
+    color: #edf2f4;
+    background-position: 100% 100%;
+}
+
+.card-heading {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.card-img {
+    height: 15rem;
+}
+
+.bullet {
+    font-size: xx-small;
+}
+
+.projects {
+    background-color: #8d99ae;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.projects-heading {
+    font-family: 'Source Code Pro', monospace;
+    color: #e94f37;
+    font-size: 4rem;
+    padding-bottom: 2%;
+}
+
+.proj-heading:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.proj-table {
+    margin-left: 19%;
+    background-color: #edf2f4;
+}
+
+.project-cell {
+    width: 30rem;
+    height: 20rem;
+}
+
+.project-cell:hover {
+    -webkit-animation-fill-mode: forwards;
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes change-color {
+    100% {background-color: #f79d65;}
+}
+
+.proj-ss {
+    width: 30rem;
+    height: 20rem;
+}
+
+.proj-heading {
+    color: #2b2d42;
+}
+
+.proj-desc {
+    color: #2b2d42;
+}
+
+.contact-me {
+    background-color: #edf2f4;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+.contact-heading {
+    font-family: 'Source Code Pro', monospace;
+    color: #2b2d42;
+    font-size: 4rem;
+    padding-bottom: 2%;
+}
+
+.contact-form {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.form-element {
+    padding-bottom: 2%;
+}
+
+.links {
+    background-color: #8d99ae;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Source Code Pro', monospace;
+    display: inline-flex;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: #edf2f4;
+}
+
+.links-heading {
+    color: #ef233c;
+}
+
+.links-ref {
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+.links-ref:hover {
+    color: #2b2d42;
+}
+
+.links-icon {
+    color: #2b2d42;
+}
+
+.table-heading {
+    color: #2b2d42;
+}
+
+.links-parts {
+    padding-right: 10%;
+}
+
+td {
+    width: 14rem;
+}
